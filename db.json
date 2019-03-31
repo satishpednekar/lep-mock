@@ -1,5 +1,5 @@
 {
-	"posts": [
+	"getRibbonsMeta": [
 		"list",
 		[{
 			"ribbonMeta": [{
@@ -38,7 +38,7 @@
 			}
 		}]
 	],
-	"profile": [{
+	"getPopularContent": [{
 			"@type": "com.saba.LXP.LXPContentMetadata",
 			"contentInvId": "cninv000000000001502",
 			"vendorId": "cnven000000000000004",
