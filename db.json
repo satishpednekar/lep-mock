@@ -7,21 +7,21 @@
 					"ribbonName": "Popular with other learners",
 					"ribbonType": "POPULAR",
 					"totalContentCount": 10,
-					"endpoint": "/Saba/api/common/lxp/content/getPopularContent"
+					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
 				},
 				{
 					"@type": "com.saba.LXP.common.LXPInterestInfo",
 					"ribbonName": "Highest rated content",
 					"ribbonType": "HIGHEST",
 					"totalContentCount": 10,
-					"endpoint": "/Saba/api/common/lxp/content/getHighestRatedContent"
+					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
 				},
 				{
 					"@type": "com.saba.LXP.common.LXPInterestInfo",
 					"ribbonType": "TRENDING",
 					"ribbonName": "Trending products in Leadership & Management",
 					"totalContentCount": 10,
-					"endpoint": "/Saba/api/common/lxp/content/getTrendingContent"
+					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
 				},
 				{
 					"@type": "com.saba.LXP.common.LXPInterestInfo",
@@ -29,7 +29,7 @@
 					"interestName": "Personal Effectiveness",
 					"ribbonName": "Trending products in Personal Effectiveness",
 					"totalContentCount": 10,
-					"endpoint": "/Saba/api/common/lxp/content/getInterestData?id='sbtag000000000010651'"
+					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
 				}
 			],
 			"userProgressInfo": {
