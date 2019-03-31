@@ -1,142 +1,138 @@
 {
-  "posts": [
-    'list',
-    [
-      {
-        ribbonMeta: [
-          {
-            '@type': 'com.saba.LXP.common.LXPInterestInfo',
-            ribbonName: 'Popular with other learners',
-            ribbonType: 'POPULAR',
-            totalContentCount: 10,
-            endpoint: '/Saba/api/common/lxp/content/getPopularContent'
-          },
-          {
-            '@type': 'com.saba.LXP.common.LXPInterestInfo',
-            ribbonName: 'Highest rated content',
-            ribbonType: 'HIGHEST',
-            totalContentCount: 10,
-            endpoint: '/Saba/api/common/lxp/content/getHighestRatedContent'
-          },
-          {
-            '@type': 'com.saba.LXP.common.LXPInterestInfo',
-            ribbonType: 'TRENDING',
-            ribbonName: 'Trending products in Leadership & Management',
-            totalContentCount: 10,
-            endpoint: '/Saba/api/common/lxp/content/getTrendingContent'
-          },
-          {
-            '@type': 'com.saba.LXP.common.LXPInterestInfo',
-            interestId: 'sbtag000000000010651',
-            interestName: 'Personal Effectiveness',
-            ribbonName: 'Trending products in Personal Effectiveness',
-            totalContentCount: 10,
-            endpoint: '/Saba/api/common/lxp/content/getInterestData?id="sbtag000000000010651"'
-          }
-        ],
-        userProgressInfo: {
-          latestInProgressContentId: 'cninv000000000001502',
-          totalCompletedCount: 22
-        }
-      }
-    ]
-  ],
-  "profile": [
-    {
-      '@type': 'com.saba.LXP.LXPContentMetadata',
-      contentInvId: 'cninv000000000001502',
-      vendorId: 'cnven000000000000004',
-      title: 'OSTitle1',
-      createdOn: '03 / 22 / 2019',
-      contentFormat: 'Scorm',
-      mobileCompatibility: 'allDevices',
-      description: 'rich content',
-      duration: '10',
-      imageURL: 'https: //www.opensesame.com/image/courseContents.jpg',
-      language: 'English',
-      tags: 'OS1, OS2tag',
-      totalViewCount: 100,
-      uniqueViewCount: 40,
-      rating: 3.5,
-      isMarkedComplete: true,
-      typeLabel: 'VIDEO',
-      contentType: 'VIDEO',
-      iconKey: 'VIDEO_CAMERA',
-      isInProgress: true,
-      actions: [
-        'LAUNCH',
-        'SHARE',
-        'BOOKMARK'
-      ],
-      vendorName: 'linkedIn',
-      categories: [
-        'cat1',
-        'cat2'
-      ]
-    },
-    {
-      '@type': 'com.saba.LXP.LXPContentMetadata',
-      contentInvId: 'cninv000000000001503',
-      vendorId: 'cnven000000000000005',
-      title: 'OSTitle2',
-      createdOn: '04 / 24 / 2019',
-      contentFormat: 'Scorm',
-      mobileCompatibility: 'allDevices',
-      description: 'rich content content content',
-      duration: '40',
-      imageURL: 'https: //www.opensesame.com/image/courseContents.jpg',
-      language: 'English',
-      tags: 'OS1, OS2tag, OS3tag',
-      totalViewCount: 300,
-      uniqueViewCount: 50,
-      rating: 5.5,
-      isMarkedComplete: true,
-      typeLabel: 'LINKE',
-      contentType: 'LINK',
-      iconKey: 'VIDEO_CAMERA',
-      isInProgress: true,
-      actions: [
-        'LAUNCH',
-        'SHARE',
-        'BOOKMARK'
-      ],
-      vendorName: 'linkedIn',
-      categories: [
-        'cat1',
-        'cat2'
-      ]
-    },
-    {
-      '@type': 'com.saba.LXP.LXPContentMetadata',
-      contentInvId: 'cninv000000000001502',
-      vendorId: 'cnven000000000000004',
-      title: 'OSTitle 3',
-      createdOn: '03 / 22 / 2019',
-      contentFormat: 'Scorm',
-      mobileCompatibility: 'allDevices',
-      description: 'rich content',
-      duration: '10',
-      imageURL: 'https: //www.opensesame.com/image/courseContents.jpg',
-      language: 'English',
-      tags: 'OS1, OS2tag',
-      totalViewCount: 100,
-      uniqueViewCount: 40,
-      rating: 3.5,
-      isMarkedComplete: true,
-      typeLabel: 'VIDEO',
-      contentType: 'VIDEO',
-      iconKey: 'VIDEO_CAMERA',
-      isInProgress: true,
-      actions: [
-        'LAUNCH',
-        'SHARE',
-        'BOOKMARK'
-      ],
-      vendorName: 'linkedIn',
-      categories: [
-        'cat1',
-        'cat2'
-      ]
-    }
-  ]
+	"posts": [
+		"list",
+		[{
+			"ribbonMeta": [{
+					"@type": "com.saba.LXP.common.LXPInterestInfo",
+					"ribbonName": "Popular with other learners",
+					"ribbonType": "POPULAR",
+					"totalContentCount": 10,
+					"endpoint": "/Saba/api/common/lxp/content/getPopularContent"
+				},
+				{
+					"@type": "com.saba.LXP.common.LXPInterestInfo",
+					"ribbonName": "Highest rated content",
+					"ribbonType": "HIGHEST",
+					"totalContentCount": 10,
+					"endpoint": "/Saba/api/common/lxp/content/getHighestRatedContent"
+				},
+				{
+					"@type": "com.saba.LXP.common.LXPInterestInfo",
+					"ribbonType": "TRENDING",
+					"ribbonName": "Trending products in Leadership & Management",
+					"totalContentCount": 10,
+					"endpoint": "/Saba/api/common/lxp/content/getTrendingContent"
+				},
+				{
+					"@type": "com.saba.LXP.common.LXPInterestInfo",
+					"interestId": "sbtag000000000010651",
+					"interestName": "Personal Effectiveness",
+					"ribbonName": "Trending products in Personal Effectiveness",
+					"totalContentCount": 10,
+					"endpoint": "/Saba/api/common/lxp/content/getInterestData?id='sbtag000000000010651'"
+				}
+			],
+			"userProgressInfo": {
+				"latestInProgressContentId": "cninv000000000001502",
+				"totalCompletedCount": 22
+			}
+		}]
+	],
+	"profile": [{
+			"@type": "com.saba.LXP.LXPContentMetadata",
+			"contentInvId": "cninv000000000001502",
+			"vendorId": "cnven000000000000004",
+			"title": "OSTitle1",
+			"createdOn": "03 / 22 / 2019",
+			"contentFormat": "Scorm",
+			"mobileCompatibility": "allDevices",
+			"description": "rich content",
+			"duration": "10",
+			"imageURL": "https: //www.opensesame.com/image/courseContents.jpg",
+			"language": "English",
+			"tags": "OS1, OS2tag",
+			"totalViewCount": 100,
+			"uniqueViewCount": 40,
+			"rating": 3.5,
+			"isMarkedComplete": true,
+			"typeLabel": "VIDEO",
+			"contentType": "VIDEO",
+			"iconKey": "VIDEO_CAMERA",
+			"isInProgress": true,
+			"actions": [
+				"LAUNCH",
+				"SHARE",
+				"BOOKMARK"
+			],
+			"vendorName": "linkedIn",
+			"categories": [
+				"cat1",
+				"cat2"
+			]
+		},
+		{
+			"@type": "com.saba.LXP.LXPContentMetadata",
+			"contentInvId": "cninv000000000001503",
+			"vendorId": "cnven000000000000005",
+			"title": "OSTitle2",
+			"createdOn": "04 / 24 / 2019",
+			"contentFormat": "Scorm",
+			"mobileCompatibility": "allDevices",
+			"description": "rich content content content",
+			"duration": "40",
+			"imageURL": "https: //www.opensesame.com/image/courseContents.jpg",
+			"language": "English",
+			"tags": "OS1, OS2tag, OS3tag",
+			"totalViewCount": 300,
+			"uniqueViewCount": 50,
+			"rating": 5.5,
+			"isMarkedComplete": true,
+			"typeLabel": "LINKE",
+			"contentType": "LINK",
+			"iconKey": "VIDEO_CAMERA",
+			"isInProgress": true,
+			"actions": [
+				"LAUNCH",
+				"SHARE",
+				"BOOKMARK"
+			],
+			"vendorName": "linkedIn",
+			"categories": [
+				"cat1",
+				"cat2"
+			]
+		},
+		{
+			"@type": "com.saba.LXP.LXPContentMetadata",
+			"contentInvId": "cninv000000000001502",
+			"vendorId": "cnven000000000000004",
+			"title": "OSTitle 3",
+			"createdOn": "03 / 22 / 2019",
+			"contentFormat": "Scorm",
+			"mobileCompatibility": "allDevices",
+			"description": "rich content",
+			"duration": "10",
+			"imageURL": "https: //www.opensesame.com/image/courseContents.jpg",
+			"language": "English",
+			"tags": "OS1, OS2tag",
+			"totalViewCount": 100,
+			"uniqueViewCount": 40,
+			"rating": 3.5,
+			"isMarkedComplete": true,
+			"typeLabel": "VIDEO",
+			"contentType": "VIDEO",
+			"iconKey": "VIDEO_CAMERA",
+			"isInProgress": true,
+			"actions": [
+				"LAUNCH",
+				"SHARE",
+				"BOOKMARK"
+			],
+			"vendorName": "linkedIn",
+			"categories": [
+				"cat1",
+				"cat2"
+			]
+		}
+	]
 }
