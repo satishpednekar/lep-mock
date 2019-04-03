@@ -12,7 +12,7 @@
 				{
 					"@type": "com.saba.LXP.common.LXPInterestInfo",
 					"ribbonName": "Highest rated content",
-					"ribbonType": "HIGHEST",
+					"ribbonType": "HIGHRATED",
 					"totalContentCount": 10,
 					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
 				},
