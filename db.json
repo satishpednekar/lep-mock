@@ -27,6 +27,7 @@
 					"@type": "com.saba.LXP.common.LXPInterestInfo",
 					"interestId": "sbtag000000000010651",
 					"interestName": "Personal Effectiveness",
+					"ribbonType": "TRENDING",
 					"ribbonName": "Trending products in Personal Effectiveness",
 					"totalContentCount": 10,
 					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
