@@ -1,139 +1,105 @@
 {
-	"getRibbonsMeta": [
-		"list",
-		[{
-			"ribbonMeta": [{
-					"@type": "com.saba.LXP.common.LXPInterestInfo",
-					"ribbonName": "Popular with other learners",
-					"ribbonType": "POPULAR",
-					"totalContentCount": 10,
-					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
-				},
-				{
-					"@type": "com.saba.LXP.common.LXPInterestInfo",
-					"ribbonName": "Highest rated content",
-					"ribbonType": "HIGHRATED",
-					"totalContentCount": 10,
-					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
-				},
-				{
-					"@type": "com.saba.LXP.common.LXPInterestInfo",
-					"ribbonType": "TRENDING",
-					"ribbonName": "Trending products in Leadership & Management",
-					"totalContentCount": 10,
-					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
-				},
-				{
-					"@type": "com.saba.LXP.common.LXPInterestInfo",
-					"interestId": "sbtag000000000010651",
-					"interestName": "Personal Effectiveness",
-					"ribbonType": "TRENDING",
-					"ribbonName": "Trending products in Personal Effectiveness",
-					"totalContentCount": 10,
-					"endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/getPopularContent"
-				}
-			],
-			"userProgressInfo": {
-				"latestInProgressContentId": "cninv000000000001502",
-				"totalCompletedCount": 22
-			}
-		}]
-	],
-	"getPopularContent": [{
-			"@type": "com.saba.LXP.LXPContentMetadata",
-			"contentInvId": "cninv000000000001502",
-			"vendorId": "cnven000000000000004",
-			"title": "OSTitle1",
-			"createdOn": "03 / 22 / 2019",
-			"contentFormat": "Scorm",
-			"mobileCompatibility": "allDevices",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"duration": "10",
-			"imageURL": "https://s16815.pcdn.co/wp-content/uploads/2015/10/iStock_computer-art.151110.jpg",
-			"language": "English",
-			"tags": "OS1, OS2tag",
-			"totalViewCount": 100,
-			"uniqueViewCount": 40,
-			"rating": 3.5,
-			"isMarkedComplete": true,
-			"typeLabel": "VIDEO",
-			"contentType": "VIDEO",
-			"iconKey": "VIDEO_CAMERA",
-			"isInProgress": true,
-			"actions": [
-				"LAUNCH",
-				"SHARE",
-				"BOOKMARK"
-			],
-			"vendorName": "linkedIn",
-			"categories": [
-				"cat1",
-				"cat2"
-			]
-		},
-		{
-			"@type": "com.saba.LXP.LXPContentMetadata",
-			"contentInvId": "cninv000000000001503",
-			"vendorId": "cnven000000000000005",
-			"title": "OSTitle2",
-			"createdOn": "04 / 24 / 2019",
-			"contentFormat": "Scorm",
-			"mobileCompatibility": "allDevices",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"duration": "40",
-			"imageURL": "https://s16815.pcdn.co/wp-content/uploads/2015/10/iStock_computer-art.151110.jpg",
-			"language": "English",
-			"tags": "OS1, OS2tag, OS3tag",
-			"totalViewCount": 300,
-			"uniqueViewCount": 50,
-			"rating": 5.5,
-			"isMarkedComplete": true,
-			"typeLabel": "LINKE",
-			"contentType": "LINK",
-			"iconKey": "VIDEO_CAMERA",
-			"isInProgress": true,
-			"actions": [
-				"LAUNCH",
-				"SHARE",
-				"BOOKMARK"
-			],
-			"vendorName": "linkedIn",
-			"categories": [
-				"cat1",
-				"cat2"
-			]
-		},
-		{
-			"@type": "com.saba.LXP.LXPContentMetadata",
-			"contentInvId": "cninv000000000001502",
-			"vendorId": "cnven000000000000004",
-			"title": "OSTitle 3",
-			"createdOn": "03 / 22 / 2019",
-			"contentFormat": "Scorm",
-			"mobileCompatibility": "allDevices",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"duration": "10",
-			"imageURL":"https://s16815.pcdn.co/wp-content/uploads/2015/10/iStock_computer-art.151110.jpg",
-			"language": "English",
-			"tags": "OS1, OS2tag",
-			"totalViewCount": 100,
-			"uniqueViewCount": 40,
-			"rating": 3.5,
-			"isMarkedComplete": true,
-			"typeLabel": "VIDEO",
-			"contentType": "VIDEO",
-			"iconKey": "VIDEO_CAMERA",
-			"isInProgress": true,
-			"actions": [
-				"LAUNCH",
-				"SHARE",
-				"BOOKMARK"
-			],
-			"vendorName": "linkedIn",
-			"categories": [
-				"cat1",
-				"cat2"
-			]
-		}
-	]
+  "@type": "com.saba.rest.find.SearchResultWrapper",
+  "searchResults": [
+    "list",
+    [
+      {
+        "@type": "com.saba.controller.team.PersonOverview",
+        "basicProfile": {
+          "@type": "persndto",
+          "personId": "emplo000000000001003",
+          "personNo": "001003",
+          "firstName": "User",
+          "lastName": "Four",
+          "fullName": "User Four",
+          "userName": "UFOUR",
+          "pictureURL": "http://pjain2-win1//assets/spf/skin/wireframe/media/icons/summit/39ProfileMale.png",
+          "timeZoneId": "tzone000000000000073",
+          "timeZoneName": "(GMT+13:00) Nuku'alofa",
+          "timeDiff": 780,
+          "timeInTimeZone": {
+            "@type": "com.saba.customtypes.DateWithLocale",
+            "date": 1594045214287,
+            "locale": "07/06/2020",
+            "timeInLocale": "7:50 PM",
+            "dateInUserTimeZone": "07/06/2020",
+            "timeInUserTimeZone": "7:50 PM",
+            "dateInCustomTimeZone": null,
+            "timeInCustomTimeZone": null,
+            "customTimeZoneDate": 0,
+            "timeInStandardFormat": "7:50 PM",
+            "dateInStandardFormat": "07/06/2020",
+            "dateInMonthYearFormat": "JUL 2020"
+          },
+          "locationId": "locat000000000001003",
+          "locationName": "Location4",
+          "email": "pjain2@saba.com",
+          "organizationId": "bisut000000000001003",
+          "organizationName": "BusinessUnit4",
+          "managerGuid": "F8BC68DADF37400A85FBEC9B2996BCEF",
+          "managerFullName": "User One",
+          "managerId": "emplo000000000001000",
+          "directTeamCount": 5,
+          "positionTeamCount": 0,
+          "personDomain": "domin000000000001002",
+          "timeZoneJavaId": "Pacific/Tongatapu",
+          "guid": "A907DDE6AA8B486ABBE6D7F03B92C3B8"
+        },
+        "endpoint": "/Saba/api/common/discoverportlet/mylearning/emplo000000000001000?pageRecords=20",
+        "payload":{"@type":"com.saba.rest.find.SearchQuery","logicalOperator":";","name":"itemList","datatype":"kString","operator":"==","value":"PLANITEMS","required":true,"conditions":["list",[{"@type":"com.saba.rest.find.SearchQuery","name":"learning_status","datatype":"String","operator":"IN","value":["java.util.ArrayList",[["java.lang.String","100"],["java.lang.String","300"]]],"required":true},{"@type":"com.saba.rest.find.SearchQuery","name":"cert_curr_eval","value":"1","operator":"=="}]]}
+      },
+      {
+        "@type": "com.saba.controller.team.PersonOverview",
+        "basicProfile": {
+          "@type": "persndto",
+          "personId": "emplo000000000001003",
+          "personNo": "001003",
+          "firstName": "User",
+          "lastName": "Four",
+          "fullName": "User Four",
+          "userName": "UFOUR",
+          "pictureURL": "http://pjain2-win1//assets/spf/skin/wireframe/media/icons/summit/39ProfileMale.png",
+          "timeZoneId": "tzone000000000000073",
+          "timeZoneName": "(GMT+13:00) Nuku'alofa",
+          "timeDiff": 780,
+          "timeInTimeZone": {
+            "@type": "com.saba.customtypes.DateWithLocale",
+            "date": 1594045214287,
+            "locale": "07/06/2020",
+            "timeInLocale": "7:50 PM",
+            "dateInUserTimeZone": "07/06/2020",
+            "timeInUserTimeZone": "7:50 PM",
+            "dateInCustomTimeZone": null,
+            "timeInCustomTimeZone": null,
+            "customTimeZoneDate": 0,
+            "timeInStandardFormat": "7:50 PM",
+            "dateInStandardFormat": "07/06/2020",
+            "dateInMonthYearFormat": "JUL 2020"
+          },
+          "locationId": "locat000000000001003",
+          "locationName": "Location4",
+          "email": "pjain2@saba.com",
+          "organizationId": "bisut000000000001003",
+          "organizationName": "BusinessUnit4",
+          "managerGuid": "F8BC68DADF37400A85FBEC9B2996BCEF",
+          "managerFullName": "User One",
+          "managerId": "emplo000000000001000",
+          "directTeamCount": 5,
+          "positionTeamCount": 0,
+          "personDomain": "domin000000000001002",
+          "timeZoneJavaId": "Pacific/Tongatapu",
+          "guid": "A907DDE6AA8B486ABBE6D7F03B92C3B8"
+        },
+        "endpoint": "/Saba/api/common/discoverportlet/mylearning/emplo000000000001000?pageRecords=20",
+        "payload":{"@type":"com.saba.rest.find.SearchQuery","logicalOperator":";","name":"itemList","datatype":"kString","operator":"==","value":"PLANITEMS","required":true,"conditions":["list",[{"@type":"com.saba.rest.find.SearchQuery","name":"learning_status","datatype":"String","operator":"IN","value":["java.util.ArrayList",[["java.lang.String","100"],["java.lang.String","300"]]],"required":true},{"@type":"com.saba.rest.find.SearchQuery","name":"cert_curr_eval","value":"1","operator":"=="}]]}
+      }
+    ]
+  ],
+  "totalRecords": 18,
+  "currentPageNumber": 1,
+  "pageSize": 10,
+  "hasMoreRecords": true,
+  "totalCountIncorrect": false,
+  "timeInterval": 0,
+  "facets": null
 }
