@@ -46,7 +46,7 @@
           "timeZoneJavaId": "Pacific/Tongatapu",
           "guid": "A907DDE6AA8B486ABBE6D7F03B92C3B8"
         },
-        "endpoint": "/Saba/api/common/discoverportlet/mylearning/emplo000000000001000?pageRecords=20",
+        "endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/mylearning",
         "payload":{"@type":"com.saba.rest.find.SearchQuery","logicalOperator":";","name":"itemList","datatype":"kString","operator":"==","value":"PLANITEMS","required":true,"conditions":["list",[{"@type":"com.saba.rest.find.SearchQuery","name":"learning_status","datatype":"String","operator":"IN","value":["java.util.ArrayList",[["java.lang.String","100"],["java.lang.String","300"]]],"required":true},{"@type":"com.saba.rest.find.SearchQuery","name":"cert_curr_eval","value":"1","operator":"=="}]]}
       },
       {
@@ -91,7 +91,7 @@
           "timeZoneJavaId": "Pacific/Tongatapu",
           "guid": "A907DDE6AA8B486ABBE6D7F03B92C3B8"
         },
-        "endpoint": "/Saba/api/common/discoverportlet/mylearning/emplo000000000001000?pageRecords=20",
+        "endpoint": "https://my-json-server.typicode.com/satishpednekar/lep-mock/mylearning",
         "payload":{"@type":"com.saba.rest.find.SearchQuery","logicalOperator":";","name":"itemList","datatype":"kString","operator":"==","value":"PLANITEMS","required":true,"conditions":["list",[{"@type":"com.saba.rest.find.SearchQuery","name":"learning_status","datatype":"String","operator":"IN","value":["java.util.ArrayList",[["java.lang.String","100"],["java.lang.String","300"]]],"required":true},{"@type":"com.saba.rest.find.SearchQuery","name":"cert_curr_eval","value":"1","operator":"=="}]]}
       }
     ]
