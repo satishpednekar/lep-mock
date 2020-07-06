@@ -103,5 +103,1011 @@
   "totalCountIncorrect": false,
   "timeInterval": 0,
   "facets": null
-}
+},
+  
+"mylearning"  : [
+  "list",
+  [
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000200680",
+        "name": "certification_with_locale",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Assigned",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1511980200000,
+          "locale": "11/30/2017",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "11/29/2017",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "11/30/2017",
+          "dateInMonthYearFormat": "NOV 2017"
+        },
+        "itemStatus": "400",
+        "dueInDays": -949,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000200680",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000002443",
+        "name": "aadisplay",
+        "type": "OFFERING"
+      },
+      "imageUrl": "http://localhost/production/course/notdc000000000203553_courseCUSTOM_RES_280p140.PNG",
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Approval",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1517769000000,
+          "locale": "02/05/2018",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "02/04/2018",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "02/05/2018",
+          "dateInMonthYearFormat": "FEB 2018"
+        },
+        "itemStatus": "100",
+        "dueInDays": -882,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004260?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004260"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000200080",
+        "name": "Automation - Adhoc",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Assigned",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1522993518000,
+          "locale": "04/06/2018",
+          "timeInLocale": "11:15 AM",
+          "dateInUserTimeZone": "04/05/2018",
+          "timeInUserTimeZone": "10:45 PM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "11:15 AM",
+          "dateInStandardFormat": "04/06/2018",
+          "dateInMonthYearFormat": "APR 2018"
+        },
+        "itemStatus": "400",
+        "dueInDays": -822,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000200080",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "cours000000000200890",
+        "name": "recert_course001en_US",
+        "type": "COURSE"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Registration",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1523039400000,
+          "locale": "04/07/2018",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "04/06/2018",
+          "timeInUserTimeZone": "11:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "04/07/2018",
+          "dateInMonthYearFormat": "APR 2018"
+        },
+        "itemStatus": "600",
+        "dueInDays": -821,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/ledetail/cours000000000200890?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "cours000000000200564",
+        "name": "AdvancedJava",
+        "type": "COURSE"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Registration",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1541788200000,
+          "locale": "11/10/2018",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "11/09/2018",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "11/10/2018",
+          "dateInMonthYearFormat": "NOV 2018"
+        },
+        "itemStatus": "600",
+        "dueInDays": -604,
+        "isMandatory": true
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/ledetail/cours000000000200564?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000200670",
+        "name": "cert",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Assigned",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1542652200000,
+          "locale": "11/20/2018",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "11/19/2018",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "11/20/2018",
+          "dateInMonthYearFormat": "NOV 2018"
+        },
+        "itemStatus": "400",
+        "dueInDays": -594,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000200670",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000202166",
+        "name": "cert one click registration",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Assigned",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1542738600000,
+          "locale": "11/21/2018",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "11/20/2018",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "11/21/2018",
+          "dateInMonthYearFormat": "NOV 2018"
+        },
+        "itemStatus": "400",
+        "dueInDays": -593,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000202166",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000200100",
+        "name": "cert1",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": "http://localhost/production/certification/notdc000000000203297_certificationCUSTOM_RES_280p140.PNG",
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Assigned",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1608748200000,
+          "locale": "12/24/2020",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "12/23/2020",
+          "timeInUserTimeZone": "10:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "12/24/2020",
+          "dateInMonthYearFormat": "DEC 2020"
+        },
+        "itemStatus": "400",
+        "dueInDays": 171,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000200100",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000200048",
+        "name": "Cert A3A 2P 2M 2L 2CRT 1REQ InEffect",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Acquired",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1617993000000,
+          "locale": "04/10/2021",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "04/09/2021",
+          "timeInUserTimeZone": "11:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "04/10/2021",
+          "dateInMonthYearFormat": "APR 2021"
+        },
+        "itemStatus": "100",
+        "dueInDays": 278,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000200048",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "crtfy000000000204366",
+        "name": "advance ES6 cert",
+        "type": "CERTIFICATION"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Acquired",
+        "dueDate": {
+          "@type": "com.saba.customtypes.DateWithLocale",
+          "date": 1620757800000,
+          "locale": "05/12/2021",
+          "timeInLocale": "12:00 AM",
+          "dateInUserTimeZone": "05/11/2021",
+          "timeInUserTimeZone": "11:30 AM",
+          "dateInCustomTimeZone": null,
+          "timeInCustomTimeZone": null,
+          "customTimeZoneDate": 0,
+          "timeInStandardFormat": "12:00 AM",
+          "dateInStandardFormat": "05/12/2021",
+          "dateInMonthYearFormat": "MAY 2021"
+        },
+        "itemStatus": "100",
+        "dueInDays": 310,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/learningeventdetail/crtfy000000000204366",
+      "iconKey": "SO_CERTIFICATION",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000001591",
+        "name": "#12",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Approval",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": true
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004107?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004107"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "cours000000000200340",
+        "name": "aaa",
+        "type": "COURSE"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Registration",
+        "dueDate": null,
+        "itemStatus": "600",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/ledetail/cours000000000200340?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000001162",
+        "name": "ae_content",
+        "type": "OFFERING"
+      },
+      "imageUrl": "http://localhost/production/course/notdc000000000203276_courseCUSTOM_RES_280p140.PNG",
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "In Progress",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004160?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004160"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000001240",
+        "name": "Approval not required",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "In Progress",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000002700?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000002700"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "cours000000000200304",
+        "name": "asdf",
+        "type": "COURSE"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Registration",
+        "dueDate": null,
+        "itemStatus": "600",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/ledetail/cours000000000200304?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "cours000000000200303",
+        "name": "asdfert",
+        "type": "COURSE"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Registration",
+        "dueDate": null,
+        "itemStatus": "600",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/ledetail/cours000000000200303?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": null
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "sbook000000000200308",
+        "name": "blendedc08en_US",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "In Progress",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000002701?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000002701"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000002947",
+        "name": "Brown Bag123",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "In Progress",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004710?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004710"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000001171",
+        "name": "Bulk Process 4 (w/ content)",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "Pending Approval",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004709?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004709"
+    },
+    {
+      "@type": "com.saba.common.services.discoverportlet.DefaultDiscoverPortletRibbonCardDetail",
+      "simpleDetail": {
+        "@type": "com.saba.social.service.SimpleDetail",
+        "id": "dowbt000000000002946",
+        "name": "cc_ContentUpdate",
+        "type": "OFFERING"
+      },
+      "imageUrl": null,
+      "additionalInfo": {
+        "@type": "map",
+        "itemDisplayStatus": "In Progress",
+        "dueDate": null,
+        "itemStatus": "100",
+        "dueInDays": null,
+        "isMandatory": false
+      },
+      "actions": [
+        "list",
+        [
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "VIEW",
+            "primaryAction": false
+          },
+          {
+            "@type": "com.saba.common.services.discoverportlet.DiscoverPortletAction",
+            "reference": null,
+            "actionInfo": {
+              "@type": "map"
+            },
+            "enabled": false,
+            "actionKey": "GO_TO_PLAN",
+            "primaryAction": false
+          }
+        ]
+      ],
+      "mountURL": "/Saba/Web_spf/Social/common/leclassdetail/regdw000000000004706?returnPage=DiscoverPortlet",
+      "iconKey": "SO_COURSE",
+      "objectType": null,
+      "itemId": "regdw000000000004706"
+    }
+  ]
+]
 }
